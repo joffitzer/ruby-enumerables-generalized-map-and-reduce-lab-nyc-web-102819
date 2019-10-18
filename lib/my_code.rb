@@ -1,3 +1,3 @@
-def my own map
+def map
 end
 
