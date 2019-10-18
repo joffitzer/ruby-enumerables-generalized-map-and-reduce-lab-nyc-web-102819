@@ -10,7 +10,7 @@ end
 
 def reduce(array, sv = nil)
   if sv
-    num1 = sv
+    sum = sv
   i = 0
 else 
   sum = array[0]
@@ -18,7 +18,7 @@ else
 end
 
   while counter < array.length
-    yield(num1, array[i])
+    yield(sum, array[i])
     counter += 1
   end
   total_of_numbers
