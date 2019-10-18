@@ -18,7 +18,7 @@ else
 end
 
   while counter < array.length
-    yield(sum, array[i])
+    sum = yield(sum, array[i])
     counter += 1
   end
   total_of_numbers
