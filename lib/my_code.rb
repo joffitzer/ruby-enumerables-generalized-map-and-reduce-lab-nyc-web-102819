@@ -17,8 +17,8 @@ else
   i = 1
 end
 
-  while counter < array.length do
-    total_of_numbers = numbers.sum + starting_point
+  while counter < array.length
+    yield(num1, array[i])
     counter += 1
   end
   total_of_numbers
