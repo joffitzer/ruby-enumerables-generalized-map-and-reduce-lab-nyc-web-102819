@@ -13,7 +13,7 @@ def reduce(array, sv = nil)
     num1 = sv
   i = 0
 else 
-  
+  num1 = array[0]
   total_of_numbers = starting_point
   while counter < numbers.length do
     total_of_numbers = numbers.sum + starting_point
