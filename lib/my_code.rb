@@ -21,5 +21,5 @@ end
     sum = yield(sum, array[i])
     i += 1
   end
-  total_of_numbers
+  sum
 end
