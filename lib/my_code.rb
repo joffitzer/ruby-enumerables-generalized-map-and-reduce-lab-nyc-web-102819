@@ -17,10 +17,7 @@ else
   i = 1
 end
 
-  
-  
-  total_of_numbers = starting_point
-  while counter < numbers.length do
+  while counter < array.length do
     total_of_numbers = numbers.sum + starting_point
     counter += 1
   end
