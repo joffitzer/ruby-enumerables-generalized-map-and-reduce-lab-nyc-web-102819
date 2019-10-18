@@ -19,7 +19,7 @@ end
 
   while counter < array.length
     sum = yield(sum, array[i])
-    counter += 1
+    i += 1
   end
   total_of_numbers
 end
