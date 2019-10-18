@@ -8,7 +8,7 @@ def map(array)
   new
 end
 
-def reduce(array, starting_point = 0)
+def reduce(array, sv = nil)
   counter = 0
   total_of_numbers = starting_point
   while counter < numbers.length do
